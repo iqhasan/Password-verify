@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: simple-password-api
+    name: password-verify
     env: php
     buildCommand: ""
     startCommand: php -S 0.0.0.0:8000
