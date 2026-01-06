@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: simple-password-api
+    env: php
+    buildCommand: ""
+    startCommand: php -S 0.0.0.0:8000
+    envVars:
+      - key: PHP_VERSION
+        value: 8.2
+    autoDeploy: true
